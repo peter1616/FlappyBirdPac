@@ -16,7 +16,7 @@ public class MainBird {
 		window.setSize(GamePanel.WIDTH, GamePanel.HEIGHT);
 		window.setLocationRelativeTo(null);
 		window.setTitle("Flappy Bird");
-		window.setResizable(false);
+		window.setResizable(true);
 		window.setVisible(true);
 	}
 	

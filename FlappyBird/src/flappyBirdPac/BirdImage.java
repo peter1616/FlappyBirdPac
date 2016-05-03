@@ -1,5 +1,6 @@
 package flappyBirdPac;
 
+import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
@@ -29,5 +30,7 @@ public class BirdImage {
 		
 	}
 
-	
+	public void drawBird(Graphics g){
+		g.drawImage(img, x, y, null);
+	}
 }

@@ -1,5 +1,6 @@
 package flappyBirdPac;
 
+import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.util.Random;
@@ -32,5 +33,8 @@ public class WallImage {
 		}
 		
 	}
-	
+	public void drawWall(Graphics g){
+		g.drawImage(img, X, Y, null);
+		g.drawImage(img, X, (-GamePanel.HEIGHT)+(Y-gap), null);
+	}
 }

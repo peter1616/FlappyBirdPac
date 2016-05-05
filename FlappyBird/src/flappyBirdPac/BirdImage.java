@@ -43,7 +43,11 @@ public class BirdImage {
 			reset();
 		}
 	}
-
+	
+	
+	public void goUpwards(){
+		speed = -17;
+	}
 
 	private void reset() {
 		speed=2;
@@ -51,4 +55,3 @@ public class BirdImage {
 		
 	}
 }
-//2
